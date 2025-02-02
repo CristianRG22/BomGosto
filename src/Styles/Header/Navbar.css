@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  padding: 20px; /* Ajusta el padding según sea necesario */
-  width: 100%; /* Asegúrate de que el navbar use todo el ancho disponible */
-  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .navbar-logo a {
@@ -38,6 +38,30 @@
   height: 3px;
   background-color: rgb(0, 0, 0);
   margin: 4px 0;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido horizontalmente */
+  justify-content: center; /* Centra el contenido verticalmente */
+  background-color: white; /* Fondo blanco */
+  color: black; /* Texto negro */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+.hamburger-menu p {
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.hamburger-menu p:hover {
+  background-color: #ddd;
 }
 
 @media (max-width: 768px) {

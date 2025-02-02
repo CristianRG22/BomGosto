@@ -1,0 +1,56 @@
+.testimonios {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.testimonio {
+  margin-bottom: 20px;
+}
+
+.testimonio h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.testimonio p {
+  font-style: italic;
+  color: #555;
+}
+
+.nuevo-testimonio {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea los campos a la izquierda */
+}
+
+.nuevo-testimonio input,
+.nuevo-testimonio textarea {
+  display: block;
+  width: 100%;
+  max-width: 98%; /* Ajusta el ancho máximo según tu preferencia */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nuevo-testimonio button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nuevo-testimonio button:hover {
+  background-color: #e67e22;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

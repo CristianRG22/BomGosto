@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
-import Menu from './Components/Menu';
+import Navbar from './Components/Header/Navbar';
 import Carrusel from './Components/Body/Carrusel';
-import './Styles/Main.css';
+import Testimonios from './Components/Body/Testimonies';
+import Rating from './Components/Body/StarRat';
 function App() {
   
 
@@ -11,10 +11,9 @@ function App() {
       <div>
       <main>
         <Navbar/>
-        
-                  
-          <Carrusel/>          
-          <Menu/>  
+        <Carrusel/>
+        <Rating/>  
+        <Testimonios/>  
          </main> </div>
     </>
   )

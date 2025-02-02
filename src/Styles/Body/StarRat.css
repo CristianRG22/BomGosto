@@ -1,0 +1,23 @@
+/* styles.css */
+.star-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .star-rating h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .star {
+    font-size: 3em; /* Aumenta el tamaño de las estrellas */
+    cursor: pointer;
+    color: #ccc;
+  }
+  
+  .star.filled {
+    color: #f39c12;
+  }
+  
