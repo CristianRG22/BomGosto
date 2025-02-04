@@ -3,18 +3,20 @@ import Navbar from './Components/Header/Navbar';
 import Carrusel from './Components/Body/Carrusel';
 import Testimonios from './Components/Body/Testimonies';
 import Rating from './Components/Body/StarRat';
+import './Styles/Global.css';
 function App() {
   
 
   return (
     <>
       <div>
-      <main>
+        <main>
         <Navbar/>
         <Carrusel/>
         <Rating/>  
         <Testimonios/>  
-         </main> </div>
+         </main> 
+      </div>
     </>
   )
 }

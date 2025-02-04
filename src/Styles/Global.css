@@ -1,0 +1,8 @@
+body {
+    background-color: #ffffff; /* Cambia el color de fondo a negro */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    padding: 0; /* Elimina el padding predeterminado del body */
+    box-sizing: border-box;
+    width: 100vw; /* Asegura que el body ocupe todo el ancho de la ventana */
+    overflow-x: hidden; /* Elimina cualquier posible desplazamiento horizontal */
+  }

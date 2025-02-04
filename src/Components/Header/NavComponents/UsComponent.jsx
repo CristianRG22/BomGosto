@@ -1,4 +1,3 @@
-// src/Components/Us.jsx
 import React, { useEffect } from 'react';
 import Modal from 'react-modal';
 import '../../../Styles/Header/Us.css';
